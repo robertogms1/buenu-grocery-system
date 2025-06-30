@@ -1,0 +1,19 @@
+buenu-grocery-system/
+│
+├── app/                      # Lógica principal do sistema
+│   ├── __init__.py
+│   ├── estoque.py
+│   ├── caixa.py
+│   ├── nota_fiscal.py
+│   └── menu.py
+│
+├── data/                     # Onde ficarão os dados salvos (ex: banco ou JSON)
+│   └── (será preenchido depois)
+│
+├── tests/                    # Para testes futuros
+│   └── test_exemplo.py
+│
+├── main.py                   # Ponto de entrada do sistema
+├── README.md                 # Descrição do projeto
+├── .gitignore                # Ignorar arquivos indesejados
+└── requirements.txt          # Dependências do projeto (se houver)
